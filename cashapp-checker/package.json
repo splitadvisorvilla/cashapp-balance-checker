@@ -1,0 +1,17 @@
+{
+  "name": "cashapp-balance-checker",
+  "version": "1.0.0",
+  "description": "A tool to check CashApp account balance using public API simulation",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
